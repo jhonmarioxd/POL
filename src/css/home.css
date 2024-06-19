@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+}
+/* styles.css */
+.slide {
+    color: wheat;
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: center;
+    text-align: left;
+}
+
+.slider {
+    height: 600px;
+    background: linear-gradient(#E93B47, #a31a23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-align: left;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.slide-1-1 {
+    width: 20%;
+}
+
+.slide-1-1 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    margin: 0;
+}
+
+.slide-1-1 h2 {
+    text-align: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.slide-1-2 img {
+    margin-left: 40px;
+    width: 600px;
+
+}
+
+.botones_de_slider {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 38%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+.boton_de_combo {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 28px;
+    color: #E93B47;
+    background-color: white;
+    border-radius: 20px;
+    border-color: transparent;
+    transition: font-size 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.boton_de_combo:hover {
+    margin-top: 5px;
+    font-size: 30px;
+    color: #E93B47;
+    background-color: white;
+    border-radius: 20px;
+    border-color: transparent;
+}
